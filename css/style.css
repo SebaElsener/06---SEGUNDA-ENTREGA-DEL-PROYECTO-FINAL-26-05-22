@@ -155,7 +155,6 @@ header nav ul li a{
 .edicAnteriores{
     background-color: azure;
     grid-area: edicAnteriores;
-    margin-top: 1rem;
     border-radius: 15px;
 }
 
@@ -622,6 +621,15 @@ footer nav ul li a{
 
     header nav ul li{
         font-size: 1.2rem;
+    }
+
+    nav ul li a{
+        transition: all .5s;
+    }
+
+    nav ul li a:hover{
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 10px rgb(72, 255, 0), 0 0 5px rgb(255, 255, 255)
     }
 
     .imagenLogo{
